@@ -1,0 +1,67 @@
+img {
+  width: 100%; }
+
+.raya {
+  height: 1px;
+  background-color: grey; }
+
+.header-top {
+  margin-top: 30px; }
+  .header-top .logo {
+    width: 35%; }
+  .header-top .nav-shop li {
+    display: inline-block; }
+
+.header-nav {
+  width: 40%;
+  margin: auto;
+  float: none; }
+
+.feature .moda {
+  background-image: url("../assets/home-feature-4.png");
+  margin-top: 25px;
+  height: 60vh;
+  background-size: cover; }
+  .feature .moda h3 {
+    padding-top: 15%;
+    color: white;
+    padding-bottom: 24px;
+    padding-left: 20px; }
+.feature .moda-right {
+  background-image: url("../assets/home-feature-5.png");
+  margin-top: 25px;
+  height: 60vh;
+  background-size: cover; }
+  .feature .moda-right h3 {
+    padding-top: 15%;
+    color: white;
+    padding-bottom: 24px;
+    padding-left: 20px; }
+
+.featured-products a {
+  text-decoration: none; }
+.featured-products .sunwear {
+  background-image: url("../assets/6.png");
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.collection {
+  background-image: url("../assets/home-feature-4.png");
+  margin-top: 25px;
+  height: 25vh;
+  background-size: cover; }
+  .collection h3 {
+    padding-top: 15%;
+    color: white;
+    padding-bottom: 24px;
+    padding-left: 20px; }
+
+.collection-bottom {
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

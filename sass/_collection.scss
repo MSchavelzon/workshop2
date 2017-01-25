@@ -1,0 +1,26 @@
+@mixin m-collection($img-path){
+	background-image: url($img-path);
+	margin-top: 25px;
+	height: 25vh;
+    background-size: cover;
+    	h3{
+    		    padding-top: 15%;
+		    color: white;
+		    padding-bottom: 24px;
+		    padding-left: 20px;
+		}
+    	
+	}
+
+.collection{
+	@include m-collection("../assets/home-feature-4.png");
+	}	
+
+.collection-bottom{
+	background-color:blue;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+

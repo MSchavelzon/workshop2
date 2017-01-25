@@ -1,0 +1,16 @@
+img{
+		width: 100%;
+		}
+
+.raya{
+	height:1px;
+	background-color: grey;
+}
+
+@import '_header.scss';
+
+@import '_moda.scss';
+
+@import '_featured-products.scss';
+
+@import '_collection.scss';

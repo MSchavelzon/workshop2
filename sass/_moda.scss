@@ -1,0 +1,26 @@
+
+
+.feature{
+	
+	@mixin m-moda($img-path){
+	background-image: url($img-path);
+	margin-top: 25px;
+	height: 60vh;
+    background-size: cover;
+    	h3{
+    		    padding-top: 15%;
+		    color: white;
+		    padding-bottom: 24px;
+		    padding-left: 20px;
+		}
+    	
+	}
+
+	.moda{
+		@include m-moda("../assets/home-feature-4.png");
+	}	
+	.moda-right{
+		@include m-moda("../assets/home-feature-5.png");
+	}	
+
+}
