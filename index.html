@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Workshop Faraday</title>
-	<link rel="stylesheet" href="styes/reset.css">
+	<link rel="stylesheet" href="styles/reset.css">
+	
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<link rel="stylesheet" href="styes/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
+		<link rel="stylesheet" href="styles/style.css">
+
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   </head>
   <body>
@@ -21,7 +24,7 @@
 			<div class="container">
 				<div class="header-top row">
 					<div class="col-md-4">
-						<span class="glyphicon glyphicon-search text-uppercase">Search</span>
+						<span class="glyphicon glyphicon-search text-uppercase"><span class="estilo1">Search</span></span>
 					</div>
 					<div class="col-md-4 text-center">
 						<img class="logo" src="assets/logo.png" alt="">
@@ -29,15 +32,15 @@
 					<div class="col-md-4">
 						<ul class="nav-shop text-right">
 							<li>
-								<span class="glyphicon glyphicon-shopping-cart text-uppercase">Items</span>	
+								<span class="glyphicon glyphicon-shopping-cart text-uppercase"><span class="estilo1">Items</span></span>	
 							</li>
-							<li class="text-uppercase">
+							<li class="text-uppercase estilo1">
 								cad
 							</li>
 						</ul>
 					</div>
 				</div>
-			<nav class="navbar navbar-default">
+			<nav class="navbar">
 				  <div class="container">
 				    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
@@ -55,7 +58,7 @@
 				      <ul class="nav navbar-nav header-nav">
 				        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
 				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="glyphicon glyphicon-menu-down flecha"></span></a>
 				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
@@ -89,24 +92,24 @@
 
 			<h4 class="title">Shop</h4>
 			
-		    <ul class="nav nav-pills nav-stacked">
-		        <li class="active"><a href="#">Men ></a></li>
-		        <li><a href="#">Classics</a></li>
-		        <li><a href="#">New arrivals</a></li>
-		        <li><a href="#">Legacy Line</a></li>
-		        <li><a href="#">Sunwear</a></li>
+		    <ul class="nav  nav-stacked">
+		        <li class="active"><a href="#" class="subtitle">Men ></a></li>
+		        <li class="menu-left"><a href="#" >Classics</a></li>
+		        <li class="menu-left"><a href="#" >New arrivals</a></li>
+		        <li class="menu-left"><a href="#" >Legacy Line</a></li>
+		        <li class="menu-left"><a href="#" >Sunwear</a></li>
 		    </ul>
-		    <ul class="nav nav-pills nav-stacked">
-		        <li class="active"><a href="#">Women ></a></li>
-		        <li><a href="#">Classics</a></li>
-		        <li><a href="#">New arrivals</a></li>
-		        <li><a href="#">Legacy Line</a></li>
-		        <li><a href="#">Sunwear</a></li>
+		    <ul class="nav nav-stacked">
+		        <li class="active"><a href="#" class="subtitle" >Women ></a></li>
+		        <li class="menu-left"><a href="#" >Classics</a></li>
+		        <li class="menu-left"><a href="#" >New arrivals</a></li>
+		        <li class="menu-left"><a href="#" >Legacy Line</a></li>
+		        <li class="menu-left"><a href="#" >Sunwear</a></li>
 		    </ul>
 
-		    <ul class="nav nav-pills nav-stacked">
-		        <li class="active"><a href="#">Lookbook</a></li>
-		        <li><a href="#">FW 2014</a></li>
+		    <ul class="nav nav-stacked">
+		        <li class="active"><a href="#" class="subtitle last">Lookbook</a></li>
+		        <li class="menu-left"><a href="#">FW 2014</a></li>
 		        
 		    </ul>
 
@@ -127,13 +130,17 @@
 			    <div class="item active">
 			      <img class="img-responsive"src="assets/0.jpg" alt="...">
 			      <div class="carousel-caption">
+			      	<p>Bold & Beautiful</p>
 			        <h3>Autumn Styles</h3>
+			        <p>By faraday Eyewear</p>
 			      </div>
 			    </div>
 			    <div class="item">
 			      <img class="img-responsive"src="assets/6.png" alt="...">
 			      <div class="carousel-caption">
-			        <h3>Imagen 2</h3>
+			        <p>Bold & Beautiful</p>
+			        <h3>Autumn Styles</h3>
+			        <p>By faraday Eyewear</p>
 			      </div>
 			    </div>
 			 		  </div>
@@ -148,18 +155,19 @@
 			    <span class="sr-only">Next</span>
 			  </a>
 			</div>
-		</article>
 		
-		<div class="feature">
-			<article class="col-md-5 moda">
+		
+		<div class="feature ">
+			<article class="col-md-6 moda">
 				<h3>Classics</h3>
 				<p class="text-uppercase">Shop now</p>
 			</article>
-			<article class="col-md-5 moda-right">
+			<article class="col-md-6 moda-right">
 				<h3>Popular</h3>
 				<p class="text-uppercase">Shop now</p>
 			</article>
 		</div>
+	</article>
 		</div>
 	</section>
 
@@ -192,15 +200,15 @@
 				<p class="text-uppercase">$235.00 Cad</p>
 			</article>
 			<article>
-				<div class="col-md-6">
+				<div class="col-md-6 welcome">
 					<h3> Welcome To Faraday Eyewear</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nulla, mollitia maiores consectetur asperiores, obcaecati quaerat. Eum iste eos cum minus voluptatem repudiandae. Mollitia, et officiis neque porro rem distinctio.</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 anteojos">
 					<img  src="assets/1.png" alt="">
 				</div>
 			</article>
-			<article class="col-md-10 sunwear">
+			<article class="col-md-10 sunwear text-center">
 				<p class="text-uppercase">All sunwear</p>
 				<h5>50% Off</h5>
 				<p class="text-uppercase">Limited time offer</p>
@@ -213,9 +221,9 @@
 		
 	</section>
 
-	<section class="container">
+	<section class="container news">
 		<div class="col-md-10 col-md-offset-2">
-			<h4 class="title">News</h4>
+			<h4 class="title text-center">News</h4>
 			<article class="col-md-4">
 				<h5>Behind the Scenes</h5>
 				<img src="assets/2.jpg" alt="">
@@ -224,14 +232,14 @@
 				<a href="#">Read More</a>
 			</article>
 			<article class="col-md-4">
-				<h5>Behind the Scenes</h5>
+				<h5>Celebrating 25 years</h5>
 				<img src="assets/2.jpg" alt="">
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
 				<a href="#">Read More</a>
 			</article>
 			<article class="col-md-4">
-				<h5>Behind the Scenes</h5>
+				<h5>Winter Reading List</h5>
 				<img src="assets/2.jpg" alt="">
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
@@ -244,7 +252,8 @@
 	<section class="container">
 		<div class="col-md-10 col-md-offset-2">
 			
-			<h4 class="title">Featured Collections</h4>
+			<h4 class="title text-center">Featured Collections</h4>
+			<div class="collection-list">
 			<article class="col-md-4 collection">
 				<h5>Lookbook</h5>
 			</article>
@@ -254,22 +263,25 @@
 			<article class="col-md-4 collection">
 				<h5> Sunwear</h5>
 			</article>
-		
-			<article class="col-md-4 collection-bottom">
+			</div>
+			
+			<div class="collection-list">
+			<article class="col-md-4 collection-bottom text-center">
 				<p>Frame special</p>
 				<h5>2 for 1</h5>
 				<p>limited time</p>
 			</article>
-			<article class="col-md-4 collection-bottom">
+			<article class="col-md-4 collection-bottom text-center">
 				<p>exclusive</p>
 				<h5>Nikon Lenses</h5>
 				<p>now available</p>
 			</article>
-			<article class="col-md-4 collection-bottom">
+			<article class="col-md-4 collection-bottom text-center">
 				<p>our acclaimed</p>
 				<h5>support</h5>
 				<p>team is standing by</p>
 			</article>
+			</div>
 		</div>
 	</section>
 

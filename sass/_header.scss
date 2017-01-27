@@ -1,22 +1,53 @@
-.header-top{
-	 margin-top: 30px;
+header{
+	padding-bottom: 4%;
 
-	.logo{
-		  width: 35%;
+	.header-top{
+		margin-top: 30px;
+		display: flex;
+	    align-items: center;
+
+		.logo{
+			  width: 35%;
+			}
+		
+		.nav-shop{
+			li{
+			display: inline-block;
+			}
+
 		}
-	
-	.nav-shop{
-		li{
-		display: inline-block;
+
+
 		}
+
+
+	.navbar{
+			@include fuente("Open Sans", serif);
+
+			ul{
+				li{
+					a{
+						color:black;
+						.flecha{
+							font-size: 10px;
+						}
+					}
+				}
+			}
+		}
+
+
+	.header-nav{
+			width: 40%;
+	    	margin: auto;
+	    	float:none;
+		}
+
+	.estilo1{
+		@include fuente("Open Sans", serif);
+		font-size: 10px;
+	    letter-spacing: 1px;
+	    padding-left: 10px;
 	}
-
 
 }
-
-.header-nav{
-		width: 40%;
-    	margin: auto;
-    	float:none;
-	}
-

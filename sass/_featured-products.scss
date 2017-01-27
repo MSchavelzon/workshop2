@@ -1,15 +1,56 @@
 .featured-products{
-	a{
-		text-decoration:none;
+
+	h4{
+		padding-bottom:4%;
 
 	}
+	a{
+		text-decoration:none;
+		color:#4d99bb;
+		letter-spacing: 1px;
+		font-size: 10px;
+		font-weight: bold;
+
+	}
+
+	h5{
+		font-weight: bold;
+		@include fuente("pt serif", sans-serif);
+	}
 	
-	
+	.welcome{
+		padding-left: 0px;
+		text-align: left;
+		h3{
+		@include fuente("pt serif", sans-serif);
+		font-weight: bold;
+		padding-bottom: 10px;
+		}
+
+		p{
+			letter-spacing: 1px;
+			color:#b9b9b9;
+			line-height: 20px;
+		}
+	}
 	.sunwear{
+		padding-top:120px;
 		background-image: url("../assets/6.png");
-		  width: 100%;
+		width: 100%;
 	    height: 60vh;
 	    background-size: cover;
 	    background-repeat: no-repeat;
+	    color: white;
+	    h5{	
+	    	@include fuente("pt serif", sans-serif);
+	    	padding: 10px 0px;
+	    	font-size: 40px;
+	    	
+	    }
+
+	    
+	}
+	.anteojos{
+		padding: 20px;
 	}
 }
