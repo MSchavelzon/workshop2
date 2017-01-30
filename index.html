@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Workshop Faraday</title>
-	<link rel="stylesheet" href="styles/reset.css">
-	
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
+  	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>Workshop Faraday</title>
+		<link rel="stylesheet" href="styles/reset.css">
+		
+	    <!-- Bootstrap -->
+	    <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- Optional theme -->
+			<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
 		<link rel="stylesheet" href="styles/style.css">
-
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  </head>
-  <body>
+  	</head>
+  	<body>
 		<header>
 			<div class="container">
 				<div class="header-top row">
 					<div class="col-md-4">
-						<span class="glyphicon glyphicon-search text-uppercase"><span class="estilo1">Search</span></span>
+						<span class="glyphicon glyphicon-search text-uppercase">
+							<span class="estilo1">Search</span>
+						</span>
 					</div>
-					<div class="col-md-4 text-center">
+					<div class="col-md-4 col-xs-12 text-center">
 						<img class="logo" src="assets/logo.png" alt="">
 					</div>
 					<div class="col-md-4">
 						<ul class="nav-shop text-right">
 							<li>
-								<span class="glyphicon glyphicon-shopping-cart text-uppercase"><span class="estilo1">Items</span></span>	
+								<span class="glyphicon glyphicon-shopping-cart text-uppercase">
+									<span class="estilo1">Items</span>
+								</span>	
 							</li>
-							<li class="text-uppercase estilo1">
+							<li class="text-uppercase estilo1 cad">
 								cad
 							</li>
 						</ul>
 					</div>
 				</div>
-			<nav class="navbar">
-				  <div class="container">
+				<nav class="navbar">
+				  	<div class="container">
 				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				     
-				    </div>
+					    <div class="navbar-header text-center">
+						    <ul>
+						      	<li class="col-xs-4 text-right">
+						      		<span class="glyphicon glyphicon-search"></span>
+						      	</li>
+						      	<li class="col-xs-4 text-center">
+						      		<span class="glyphicon glyphicon-shopping-cart"></span>
+						      	</li>
+						      	<li class="col-xs-4 text-left">
+						      		<span class="glyphicon glyphicon glyphicon-menu-hamburger"></span> 
+						      	</li>
+						    </ul>
+					    </div>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 text-center">
 				      <ul class="nav navbar-nav header-nav">
-				        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+				        <li class="active">
+				        	<a href="#">Home <span class="sr-only">(current)</span></a>
+				        </li>
 				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="glyphicon glyphicon-menu-down flecha"></span></a>
 				          <ul class="dropdown-menu">
@@ -78,279 +87,264 @@
 				      
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
-
-			</nav>
-			
-			<div class="raya"></div>
-
+				</nav>			
+				<div class="raya"></div>
 			</div>
 		</header>
 	
-	<section class="container">
-		<div class="row">
-		<article class="col-md-2">
+		<section class="container">
+			<div class="row">
+				<article class="col-md-2 left-nav">
+					<h4 class="title">Shop</h4>				
+				    <ul class="nav  nav-stacked">
+				        <li class="active"><a href="#" class="subtitle">Men ></a></li>
+				        <li class="menu-left"><a href="#" >Classics</a></li>
+				        <li class="menu-left"><a href="#" >New arrivals</a></li>
+				        <li class="menu-left"><a href="#" >Legacy Line</a></li>
+				        <li class="menu-left"><a href="#" >Sunwear</a></li>
+				    </ul>
+				    <ul class="nav nav-stacked">
+				        <li class="active"><a href="#" class="subtitle" >Women ></a></li>
+				        <li class="menu-left"><a href="#" >Classics</a></li>
+				        <li class="menu-left"><a href="#" >New arrivals</a></li>
+				        <li class="menu-left"><a href="#" >Legacy Line</a></li>
+				        <li class="menu-left"><a href="#" >Sunwear</a></li>
+				    </ul>
+				    <ul class="nav nav-stacked">
+				        <li class="active"><a href="#" class="subtitle last">Lookbook</a></li>
+				        <li class="menu-left"><a href="#">FW 2014</a></li>	        
+				    </ul>			    
+				</article>
 
-			<h4 class="title">Shop</h4>
-			
-		    <ul class="nav  nav-stacked">
-		        <li class="active"><a href="#" class="subtitle">Men ></a></li>
-		        <li class="menu-left"><a href="#" >Classics</a></li>
-		        <li class="menu-left"><a href="#" >New arrivals</a></li>
-		        <li class="menu-left"><a href="#" >Legacy Line</a></li>
-		        <li class="menu-left"><a href="#" >Sunwear</a></li>
-		    </ul>
-		    <ul class="nav nav-stacked">
-		        <li class="active"><a href="#" class="subtitle" >Women ></a></li>
-		        <li class="menu-left"><a href="#" >Classics</a></li>
-		        <li class="menu-left"><a href="#" >New arrivals</a></li>
-		        <li class="menu-left"><a href="#" >Legacy Line</a></li>
-		        <li class="menu-left"><a href="#" >Sunwear</a></li>
-		    </ul>
+				<article class="col-md-10 col-xs-12">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
 
-		    <ul class="nav nav-stacked">
-		        <li class="active"><a href="#" class="subtitle last">Lookbook</a></li>
-		        <li class="menu-left"><a href="#">FW 2014</a></li>
-		        
-		    </ul>
+					  	<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						    	<img class="img-responsive"src="assets/0.jpg" alt="...">
+						      	<div class="carousel-caption">
+							      	<p>Bold & Beautiful</p>
+							        <h3>Autumn Styles</h3>
+							        <p>By faraday Eyewear</p>
+						      	</div>
+						    </div>
+						    <div class="item">
+						      	<img class="img-responsive"src="assets/6.png" alt="...">
+						      	<div class="carousel-caption">
+							        <p>Bold & Beautiful</p>
+							        <h3>Autumn Styles</h3>
+							        <p>By faraday Eyewear</p>
+						      	</div>
+						    </div>
+					 	</div>
 
+					  	<!-- Controls -->
+					  	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+					  	</a>
+					 	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    	<span class="sr-only">Next</span>
+					  	</a>
+					</div>
+					
+					<article class="col-xs-12 autumn-styles">
+						<p class="text-center text-uppercase">Bold & Beautiful</p>
+						<h3 class="text-center">Autumn Styles</h3>
+						<p class="text-center text-uppercase">By faraday Eyewear</p>
+					</article>
 
-		    
-		</article>
-		<article class="col-md-10">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
-			    <div class="item active">
-			      <img class="img-responsive"src="assets/0.jpg" alt="...">
-			      <div class="carousel-caption">
-			      	<p>Bold & Beautiful</p>
-			        <h3>Autumn Styles</h3>
-			        <p>By faraday Eyewear</p>
-			      </div>
-			    </div>
-			    <div class="item">
-			      <img class="img-responsive"src="assets/6.png" alt="...">
-			      <div class="carousel-caption">
-			        <p>Bold & Beautiful</p>
-			        <h3>Autumn Styles</h3>
-			        <p>By faraday Eyewear</p>
-			      </div>
-			    </div>
-			 		  </div>
-
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
-		
-		
-		<div class="feature ">
-			<article class="col-md-6 moda">
-				<h3>Classics</h3>
-				<p class="text-uppercase">Shop now</p>
-			</article>
-			<article class="col-md-6 moda-right">
-				<h3>Popular</h3>
-				<p class="text-uppercase">Shop now</p>
-			</article>
-		</div>
-	</article>
-		</div>
-	</section>
-
-	<section class="container featured-products">
-		
-		<div class="col-md-10 col-md-offset-2">
-			<h4 class="title text-center">Featured Productes</h4>
-			<article class="col-md-3 text-center">
-				<img src="assets/2.jpg" alt="">
-				<a href="#" class="text-uppercase">Warby Parker</a>
-				<h5>Clara</h5>
-				<p class="text-uppercase">$235.00 Cad</p>
-			</article>
-			<article class="col-md-3 text-center">
-				<img src="assets/3.jpg" alt="">
-				<a href="#" class="text-uppercase">Warby Parker</a>
-				<h5>Edgeworth</h5>
-				<p class="text-uppercase">$235.00 Cad</p>
-			</article>
-			<article class="col-md-3 text-center">
-				<img src="assets/4.jpg" alt="">
-				<a href="#" class="text-uppercase">Warby Parker</a>
-				<h5>Kidd</h5>
-				<p class="text-uppercase">$235.00 Cad</p>
-			</article>
-			<article class="col-md-3 text-center">
-				<img src="assets/5.jpg" alt="">
-				<a href="#" class="text-uppercase">Warby Parker</a>
-				<h5>Laurel</h5>
-				<p class="text-uppercase">$235.00 Cad</p>
-			</article>
-			<article>
-				<div class="col-md-6 welcome">
-					<h3> Welcome To Faraday Eyewear</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nulla, mollitia maiores consectetur asperiores, obcaecati quaerat. Eum iste eos cum minus voluptatem repudiandae. Mollitia, et officiis neque porro rem distinctio.</p>
-				</div>
-				<div class="col-md-6 anteojos">
-					<img  src="assets/1.png" alt="">
-				</div>
-			</article>
-			<article class="col-md-10 sunwear text-center">
-				<p class="text-uppercase">All sunwear</p>
-				<h5>50% Off</h5>
-				<p class="text-uppercase">Limited time offer</p>
 				
-			</article>
-
-
-		</div>
-		
-		
-	</section>
-
-	<section class="container news">
-		<div class="col-md-10 col-md-offset-2">
-			<h4 class="title text-center">News</h4>
-			<article class="col-md-4">
-				<h5>Behind the Scenes</h5>
-				<img src="assets/2.jpg" alt="">
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
-				<a href="#">Read More</a>
-			</article>
-			<article class="col-md-4">
-				<h5>Celebrating 25 years</h5>
-				<img src="assets/2.jpg" alt="">
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
-				<a href="#">Read More</a>
-			</article>
-			<article class="col-md-4">
-				<h5>Winter Reading List</h5>
-				<img src="assets/2.jpg" alt="">
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
-				<a href="#">Read More</a>
-			</article>
-		</div>
-
-	</section>
-
-	<section class="container">
-		<div class="col-md-10 col-md-offset-2">
-			
-			<h4 class="title text-center">Featured Collections</h4>
-			<div class="collection-list">
-			<article class="col-md-4 collection">
-				<h5>Lookbook</h5>
-			</article>
-			<article class="col-md-4 collection">
-				<h5>Legacy Line</h5>
-			</article>
-			<article class="col-md-4 collection">
-				<h5> Sunwear</h5>
-			</article>
+				
+					<div class="feature ">
+						<article class="col-md-6 col-xs-12 moda">
+							<h3>Classics</h3>
+							<p class="text-uppercase">Shop now</p>
+						</article>
+						<article class="col-md-6 col-xs-12 moda-right">
+							<h3>Popular</h3>
+							<p class="text-uppercase">Shop now</p>
+						</article>
+					</div>
+				</article>
 			</div>
-			
-			<div class="collection-list">
-			<article class="col-md-4 collection-bottom text-center">
-				<p>Frame special</p>
-				<h5>2 for 1</h5>
-				<p>limited time</p>
-			</article>
-			<article class="col-md-4 collection-bottom text-center">
-				<p>exclusive</p>
-				<h5>Nikon Lenses</h5>
-				<p>now available</p>
-			</article>
-			<article class="col-md-4 collection-bottom text-center">
-				<p>our acclaimed</p>
-				<h5>support</h5>
-				<p>team is standing by</p>
-			</article>
+		</section>
+
+		<section class="container featured-products">			
+			<div class="col-md-10 col-md-offset-2">
+				<h4 class="title text-center">Featured Productes</h4>
+				<article class="col-md-3 text-center">
+					<img src="assets/2.jpg" alt="">
+					<a href="#" class="text-uppercase">Warby Parker</a>
+					<h5>Clara</h5>
+					<p class="text-uppercase">$235.00 Cad</p>
+				</article>
+				<article class="col-md-3 text-center">
+					<img src="assets/3.jpg" alt="">
+					<a href="#" class="text-uppercase">Warby Parker</a>
+					<h5>Edgeworth</h5>
+					<p class="text-uppercase">$235.00 Cad</p>
+				</article>
+				<article class="col-md-3 text-center">
+					<img src="assets/4.jpg" alt="">
+					<a href="#" class="text-uppercase">Warby Parker</a>
+					<h5>Kidd</h5>
+					<p class="text-uppercase">$235.00 Cad</p>
+				</article>
+				<article class="col-md-3 text-center">
+					<img src="assets/5.jpg" alt="">
+					<a href="#" class="text-uppercase">Warby Parker</a>
+					<h5>Laurel</h5>
+					<p class="text-uppercase">$235.00 Cad</p>
+				</article>
+				<article>
+					<div class="col-md-6 welcome">
+						<h3> Welcome To Faraday Eyewear</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nulla, mollitia maiores consectetur asperiores, obcaecati quaerat. Eum iste eos cum minus voluptatem repudiandae. Mollitia, et officiis neque porro rem distinctio.</p>
+					</div>
+					<div class="col-md-6 anteojos">
+						<img  src="assets/1.png" alt="">
+					</div>
+				</article>
+				<article class="col-md-10 sunwear text-center">
+					<p class="text-uppercase">All sunwear</p>
+					<h5>50% Off</h5>
+					<p class="text-uppercase">Limited time offer</p>					
+				</article>
+			</div>			
+		</section>
+
+		<section class="container news">
+			<div class="col-md-10 col-md-offset-2">
+				<h4 class="title text-center">News</h4>
+				<article class="col-md-4">
+					<h5>Behind the Scenes</h5>
+					<img src="assets/2.jpg" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
+					<a href="#">Read More</a>
+				</article>
+				<article class="col-md-4">
+					<h5>Celebrating 25 years</h5>
+					<img src="assets/2.jpg" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
+					<a href="#">Read More</a>
+				</article>
+				<article class="col-md-4">
+					<h5>Winter Reading List</h5>
+					<img src="assets/2.jpg" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non maiores omnis perferendis animi rem. Error dolor ipsam, voluptatum assumenda, omnis similique ullam aspernatur optio quas quis perspiciatis blanditiis voluptatibus.</p>
+					<a href="#">Read More</a>
+				</article>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<footer class="container">
-		<div class="raya"></div>
-			<div class="col-md-4">
-				<nav class="col-md-6">
-					<h6>Navigate</h6>
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Theme Features</a></li>
-					</ul>
-				</nav>
-				<nav class="col-md-6">
-					<h6>Support</h6>
-					<ul>
-						<li><a href="#">Customer Service</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Free Shipping</a></li>
-						<li><a href="#">Returns</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-					</ul>
-				</nav>
+		<section class="container">
+			<div class="col-md-10 col-md-offset-2">				
+				<h4 class="title text-center">Featured Collections</h4>
+				<div class="collection-list">
+					<article class="col-md-4 collection">
+						<h5>Lookbook</h5>
+					</article>
+					<article class="col-md-4 collection">
+						<h5>Legacy Line</h5>
+					</article>
+					<article class="col-md-4 collection">
+						<h5> Sunwear</h5>
+					</article>
+				</div>				
+				<div class="collection-list">
+					<article class="col-md-4 collection-bottom text-center">
+						<p>Frame special</p>
+						<h5>2 for 1</h5>
+						<p>limited time</p>
+					</article>
+					<article class="col-md-4 collection-bottom text-center">
+						<p>exclusive</p>
+						<h5>Nikon Lenses</h5>
+						<p>now available</p>
+					</article>
+					<article class="col-md-4 collection-bottom text-center">
+						<p>our acclaimed</p>
+						<h5>support</h5>
+						<p>team is standing by</p>
+					</article>
+				</div>
+			</div>
+		</section>
 
-		</div>
+		<section class="container shop-mobile">
+			<div class="col-xs-12">
+				<div class="raya">
+				</div>
+				<h4 class="text-center text-uppercase title">Shop</h4>
+				<ul>
+					<li class="text-center">Men 
+						<a href="#">+</a>
+					</li>
+					<li class="text-center">Women
+						<a href="#">+</a>
+					</li>
+					<li class="text-center">Lookbok
+						<a href="#">+</a>
+					</li>
+				</ul>
+			</div>
+		</section>
 
-		<div class="col-md-4">
-			<h6>Twitter</h6>
-		</div>
-
-		<div class="col-md-4">
-			<h6>Newsletter</h6>
-			<div class="form-group">
-			    <input type="email" class="form-control" id="email" placeholder="your@email.com">
-			 </div>
-
-			 <h6 class="text-uppercase">Connect whit us</h6>
-			 <nav>
-			 	<ul>
-			 		<li><a href="#"><span class="ion-social-facebook"></span></a></li>
-			 		<li><a href="#"><span class="ion-social-twitter"></span></a></li>
-			 		<li><a href="#"><span class="ion-social-pinterest"></span></a></li>
-			 		<li><a href="#"><span class="ion-social-instagram"></span></a></li>
-			 		<li><a href="#"><span class="ion-ios-email-outline"></span></a></li>
-			 	</ul>
-			 </nav>
-		</div>
-
-		
-	</footer>
-
-
-
-
-		
-
-
-
-
-
-
-    
-
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
- 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+		<footer class="container footer">
+			<div class="raya">
+			</div>
+				<div class="col-md-4">
+					<nav class="col-md-6">
+						<h6>Navigate</h6>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Theme Features</a></li>
+						</ul>
+					</nav>
+					<nav class="col-md-6">
+						<h6>Support</h6>
+						<ul>
+							<li><a href="#">Customer Service</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Free Shipping</a></li>
+							<li><a href="#">Returns</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-4">
+					<h6>Twitter</h6>
+				</div>
+				<div class="col-md-4">
+					<h6>Newsletter</h6>
+					<div class="form-group">
+					    <input type="email" class="form-control" id="email" placeholder="your@email.com">
+					</div>
+				 	<h6 class="text-uppercase">Connect whit us</h6>
+					<nav class="social">
+					 	<ul>
+					 		<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+					 		<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+					 		<li><a href="#"><span class="ion-social-pinterest"></span></a></li>
+					 		<li><a href="#"><span class="ion-social-instagram"></span></a></li>
+					 		<li><a href="#"><span class="ion-ios-email-outline"></span></a></li>
+					 	</ul>
+					</nav>
+				</div>			
+		</footer>   
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
 </html>

@@ -18,7 +18,7 @@ header{
 		}
 
 
-		}
+	}
 
 
 	.navbar{
@@ -47,7 +47,19 @@ header{
 		@include fuente("Open Sans", serif);
 		font-size: 10px;
 	    letter-spacing: 1px;
-	    padding-left: 10px;
+	    margin-left: 10px;
 	}
 
-}
+	.cad{
+		    vertical-align: baseline;
+		    border: 1px solid gainsboro;
+		    border-radius: 2px;
+		    padding:2px;
+		}
+	.navbar-header{
+		display: none;
+		}
+	}
+
+	
+

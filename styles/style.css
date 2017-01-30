@@ -1,0 +1,318 @@
+body {
+  font-family: "Open Sans", serif;
+  border-sizing: border-box; }
+
+img {
+  width: 100%; }
+
+section {
+  padding-bottom: 4%; }
+
+.raya {
+  height: 1px;
+  background-color: #e5e5e5; }
+
+.title {
+  color: #aaaaaa;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Open Sans", serif; }
+
+.active .subtitle {
+  font-family: "open sans", serif;
+  color: #4d99bb;
+  font-weight: bold; }
+.active .last {
+  color: black; }
+
+.menu-left {
+  padding-left: 10px; }
+  .menu-left a {
+    font-family: "Open Sans", serif;
+    color: black; }
+
+.carousel-caption {
+  left: 15%;
+  right: auto;
+  bottom: 25%;
+  text-align: left; }
+  .carousel-caption p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Open Sans", serif; }
+  .carousel-caption h3 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "pt serif", sans-serif;
+    letter-spacing: 1px; }
+
+.autumn-styles {
+  display: none; }
+
+.shop-mobile {
+  display: none; }
+
+header {
+  padding-bottom: 4%; }
+  header .header-top {
+    margin-top: 30px;
+    display: flex;
+    align-items: center; }
+    header .header-top .logo {
+      width: 35%; }
+    header .header-top .nav-shop li {
+      display: inline-block; }
+  header .navbar {
+    font-family: "Open Sans", serif; }
+    header .navbar ul li a {
+      color: black; }
+      header .navbar ul li a .flecha {
+        font-size: 10px; }
+  header .header-nav {
+    width: 40%;
+    margin: auto;
+    float: none; }
+  header .estilo1 {
+    font-family: "Open Sans", serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-left: 10px; }
+  header .cad {
+    vertical-align: baseline;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 2px; }
+  header .navbar-header {
+    display: none; }
+
+.feature {
+  display: flex;
+  justify-content: space-between; }
+  .feature .moda {
+    background-image: url("../assets/home-feature-4.png");
+    margin-top: 25px;
+    height: 40vh;
+    background-size: cover;
+    width: 49%;
+    padding-left: 30px;
+    padding-bottom: 24px;
+    color: white; }
+    .feature .moda h3 {
+      padding-top: 15%;
+      padding-bottom: 20px;
+      font-family: "pt serif", sans-serif; }
+    .feature .moda p {
+      font-size: 10px;
+      letter-spacing: 1px; }
+  .feature .moda-right {
+    background-image: url("../assets/home-feature-5.png");
+    margin-top: 25px;
+    height: 40vh;
+    background-size: cover;
+    width: 49%;
+    padding-left: 30px;
+    padding-bottom: 24px;
+    color: white;
+    padding-left: 30px; }
+    .feature .moda-right h3 {
+      padding-top: 15%;
+      padding-bottom: 20px;
+      font-family: "pt serif", sans-serif; }
+    .feature .moda-right p {
+      font-size: 10px;
+      letter-spacing: 1px; }
+
+.featured-products h4 {
+  padding-bottom: 4%; }
+.featured-products a {
+  text-decoration: none;
+  color: #4d99bb;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: bold; }
+.featured-products h5 {
+  font-weight: bold;
+  font-family: "pt serif", sans-serif; }
+.featured-products .welcome {
+  padding-left: 0px;
+  text-align: left; }
+  .featured-products .welcome h3 {
+    font-family: "pt serif", sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px; }
+  .featured-products .welcome p {
+    letter-spacing: 1px;
+    color: #b9b9b9;
+    line-height: 20px; }
+.featured-products .sunwear {
+  padding-top: 120px;
+  background-image: url("../assets/6.png");
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  .featured-products .sunwear h5 {
+    font-family: "pt serif", sans-serif;
+    padding: 10px 0px;
+    font-size: 40px; }
+.featured-products .anteojos {
+  padding: 20px; }
+
+.news h4 {
+  padding-bottom: 10px; }
+.news article h5 {
+  font-weight: bold;
+  font-family: "pt serif", sans-serif;
+  padding-bottom: 5px;
+  font-size: 20px; }
+.news article p {
+  line-height: 20px; }
+.news article a {
+  color: #4d99bb;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px; }
+
+.collection-list {
+  display: flex;
+  justify-content: space-between; }
+
+.collection {
+  font-family: "pt serif", sans-serif;
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url("../assets/home-feature-4.png");
+  margin-top: 25px;
+  height: 30vh;
+  background-size: cover; }
+  .collection h5 {
+    font-size: 25px; }
+  .collection h3 {
+    padding-top: 15%;
+    color: white;
+    padding-bottom: 24px;
+    padding-left: 20px; }
+
+.collection-bottom {
+  padding: 35px 0;
+  margin-top: 10px;
+  width: 32%;
+  background-color: #94a0b0;
+  color: white;
+  text-transform: uppercase;
+  text-align: center; }
+  .collection-bottom p {
+    margin-bottom: 0px; }
+  .collection-bottom h5 {
+    font-family: "pt serif", sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px; }
+
+.collection-bottom:first-child {
+  background-color: #b7bcc2; }
+
+.collection-bottom:last-child {
+  background-color: #d1c4b4; }
+
+.footer h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 600; }
+.footer ul li {
+  padding: 5px 0px; }
+  .footer ul li a {
+    text-decoration: none;
+    color: #3b4952;
+    letter-spacing: 1px;
+    font-weight: 500; }
+.footer .social ul li {
+  display: inline-block;
+  font-size: 35px;
+  margin-right: 15px; }
+
+@media screen and (max-width: 426px) {
+  header .header-top {
+    display: block; }
+    header .header-top div span {
+      display: none; }
+    header .header-top div .search {
+      display: none; }
+    header .header-top div .estilo1 {
+      display: none; }
+  header .navbar-header {
+    display: inline; }
+    header .navbar-header ul li {
+      display: inline-block;
+      color: #374051;
+      font-size: 30px; }
+
+  /*Cierre Header*/
+  .carousel-caption {
+    display: none; }
+
+  .autumn-styles {
+    display: block; }
+    .autumn-styles p {
+      padding: 20px;
+      margin: 0px; }
+    .autumn-styles h3 {
+      margin: 0px;
+      font-family: "pt serif", sans-serif; }
+
+  .feature {
+    display: block; }
+    .feature .moda {
+      width: 100%;
+      height: initial; }
+    .feature .moda-right {
+      width: 100%;
+      height: initial; }
+
+  .left-nav {
+    display: none; }
+
+  .featured-products .sunwear {
+    padding: 0px;
+    height: 100%; }
+    .featured-products .sunwear h5 {
+      margin: 0px; }
+    .featured-products .sunwear p {
+      padding: 10px;
+      margin: 0px; }
+
+  .collection-list {
+    display: block; }
+    .collection-list .collection {
+      width: 100%;
+      height: 50vh; }
+    .collection-list .collection-bottom {
+      width: 100%;
+      height: 50vh;
+      padding: 50px; }
+    .collection-list p, .collection-list h5 {
+      letter-spacing: 1px; }
+
+  .shop-mobile {
+    display: block; }
+    .shop-mobile p {
+      padding: 20px; }
+    .shop-mobile ul li {
+      padding: 10px; }
+
+  .footer {
+    text-align: center; }
+    .footer h6 {
+      padding: 20px; }
+    .footer ul li {
+      padding: 10px; }
+    .footer .social ul li {
+      margin: 0px;
+      padding: 5px; } }
+
+/*# sourceMappingURL=style.css.map */

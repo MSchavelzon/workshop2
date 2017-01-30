@@ -1,0 +1,22 @@
+.news{
+	h4{
+		padding-bottom: 10px;
+	}
+	article{
+		h5{
+			font-weight: bold;
+			@include fuente("pt serif", sans-serif);
+			padding-bottom: 5px;
+			font-size:20px;
+		}
+		p{
+			line-height:20px;
+		}
+		a{
+			color:#4d99bb;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-size: 10px;
+		}
+	}
+}

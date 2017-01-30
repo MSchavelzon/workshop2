@@ -43,6 +43,11 @@
 	p{
 		margin-bottom: 0px;
 	}
+	h5{
+		@include fuente("pt serif", sans-serif);
+		font-size: 22px;
+		letter-spacing: 1px;
+	}
 }
 
 .collection-bottom:first-child{
