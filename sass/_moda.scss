@@ -1,43 +1,30 @@
-
-
-
 .feature{
 	display: flex;
-    justify-content: space-between;
-	
+    justify-content: space-between;	
 	@mixin m-moda($img-path){
-	background-image: url($img-path);
-	margin-top: 25px;
-	height: 40vh;
-    background-size: cover;
-    width: 49%;
-    padding-left: 30px;
-    padding-bottom: 24px;
-    color:white;
+		background-image: url($img-path);
+		margin-top: 25px;
+		height: 40vh;
+ 		background-size: cover;
+    	width: 49%;
+		padding-left: 30px;
+		padding-bottom: 24px;
+		color:white;
     	h3{
     		padding-top: 15%;
-    		padding-bottom: 20px;
-		   
-		      
+    		padding-bottom: 20px;		      
 		    @include fuente("pt serif", sans-serif);
 		}
-	p{
-		font-size: 10px;
-    letter-spacing: 1px;
-
+		p{
+			font-size: 10px;
+			letter-spacing: 1px;
+		}    	
 	}
-		
-
-		
-    	
-	}
-
 	.moda{
 		@include m-moda("../assets/home-feature-4.png");
 	}	
 	.moda-right{
 		@include m-moda("../assets/home-feature-5.png");
 		padding-left: 30px;
-	}	
-
+	}
 }

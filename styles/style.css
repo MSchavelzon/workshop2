@@ -252,7 +252,6 @@ header {
       color: #374051;
       font-size: 30px; }
 
-  /*Cierre Header*/
   .carousel-caption {
     display: none; }
 
@@ -293,7 +292,7 @@ header {
       height: 50vh; }
     .collection-list .collection-bottom {
       width: 100%;
-      height: 50vh;
+      height: 35vh;
       padding: 50px; }
     .collection-list p, .collection-list h5 {
       letter-spacing: 1px; }

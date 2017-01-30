@@ -1,65 +1,52 @@
 header{
 	padding-bottom: 4%;
-
 	.header-top{
 		margin-top: 30px;
 		display: flex;
 	    align-items: center;
-
 		.logo{
 			  width: 35%;
-			}
-		
+			}		
 		.nav-shop{
 			li{
 			display: inline-block;
 			}
-
 		}
-
-
 	}
-
-
 	.navbar{
-			@include fuente("Open Sans", serif);
-
-			ul{
-				li{
-					a{
-						color:black;
-						.flecha{
-							font-size: 10px;
-						}
+		@include fuente("Open Sans", serif);
+		ul{
+			li{
+				a{
+					color:black;
+					.flecha{
+						font-size: 10px;
 					}
 				}
 			}
 		}
-
-
+	}
 	.header-nav{
-			width: 40%;
-	    	margin: auto;
-	    	float:none;
-		}
-
+		width: 40%;
+	    margin: auto;
+	    float:none;
+	}
 	.estilo1{
 		@include fuente("Open Sans", serif);
 		font-size: 10px;
 	    letter-spacing: 1px;
 	    margin-left: 10px;
 	}
-
 	.cad{
-		    vertical-align: baseline;
-		    border: 1px solid gainsboro;
-		    border-radius: 2px;
-		    padding:2px;
-		}
+		vertical-align: baseline;
+		border: 1px solid gainsboro;
+		border-radius: 2px;
+		padding:2px;
+	}
 	.navbar-header{
 		display: none;
-		}
 	}
+}
 
 	
 
