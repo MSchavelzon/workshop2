@@ -2,8 +2,8 @@
 	background-image: url($img-path);
 	margin-top: 25px;
 	height: 30vh;
-    background-size: cover;
-    h3{
+	background-size: cover;
+	h3{
     	padding-top: 15%;
 		color: white;
 		padding-bottom: 24px;
@@ -23,11 +23,11 @@
 	@include fuente("pt serif", sans-serif);
 	width:32%;
 	display: flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
+	align-items: center;
+	justify-content: center;
+	color:white;
 	@include m-collection("../assets/home-feature-4.png");
-}	
+}
 
 .collection-bottom{
 	padding: 35px 0;
