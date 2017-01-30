@@ -1,6 +1,6 @@
 .feature{
 	display: flex;
-    justify-content: space-between;	
+	justify-content: space-between;	
 	@mixin m-moda($img-path){
 		background-image: url($img-path);
 		margin-top: 25px;
@@ -13,7 +13,7 @@
     	h3{
     		padding-top: 15%;
     		padding-bottom: 20px;		      
-		    @include fuente("pt serif", sans-serif);
+			@include fuente("pt serif", sans-serif);
 		}
 		p{
 			font-size: 10px;
